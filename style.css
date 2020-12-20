@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('assets/DrukWide-Medium.ttf');
+}
+
+body{
+    background-color: #060507; 
+    width: 1742px;
+    height: 1109px;
+}
+
+.logo_button{
+    position: absolute;
+    display: inline-block;
+    margin-left: 64px;
+    margin-top: 54.27px;
+}
+
+.bike_button{
+    position: absolute;
+    display: inline-block;
+    margin-left: 453px;
+    margin-top: 64px;
+
+    background-color: transparent;
+    border: none;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 183%;
+    color: #FFFFFF;
+}
+
+.accessories_button{
+    position: absolute;
+    display: inline-block;
+    margin-left: 568px;
+    margin-top: 64px;
+
+    background-color: transparent;
+    border: none;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 183%;
+    color: #FFFFFF;
+}
+
+.newtech_button{
+    position: absolute;
+    display: inline-block;
+    margin-left: 804px;
+    margin-top: 64px;
+
+    background-color: transparent;
+    border: none;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 183%;
+    color: #FFFFFF;
+}
+
+.explore_button{
+    margin-left: 984px;
+    margin-top: 64px;
+
+    background-color: transparent;
+    border: none;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 183%;
+    color: #FFFFFF;
+}
+
+.gold{
+    position: absolute;
+    width: 370px;
+    height: 762px;
+    left: 1450px;
+    top: -200px;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
+.photo_1{
+    position: relative;
+    margin-left: 19px;
+    margin-top: 119.39px;
+}
+
+.photo_2{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: -778px;
+}
+
+.vector{
+    position: absolute;
+    margin-left: -1055px;
+    margin-top: 728px;
+    z-index: 1;
+}
+
+.photo_3{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 12px;
+}
+
+.info_block{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 200%;
+    color: #FFFFFF;
+    margin-left: 591px;
+    margin-top: 125px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.bike_button:hover{
+    background-color: orangered;
+}
+.accessories_button:hover{
+    background-color: orangered;
+}
+.newtech_button:hover{
+    background-color: orangered;
+}
+.explore_button:hover{
+    background-color: orangered;
+}
+
+.speed{
+    position: absolute;
+    margin-left: 1410px;
+    margin-top: -450px;
+
+    color: #3F3E44;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transform: rotate(-90deg);
+}
+
+.speed2{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: -470px;
+
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase  
+}
+
+.speed3{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: -445px;
+
+    color: white;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px; 
+}
+
+.power{
+    position: absolute;
+    margin-left: 1425px;
+    margin-top: -270px;
+
+    color: #3F3E44;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transform: rotate(-90deg);
+}
+
+.power2{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: -290px;
+
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase  
+}
+
+.power3{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: -265px;
+
+    color: white;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.torque{
+    position: absolute;
+    margin-left: 1420px;
+    margin-top: -85px;
+    transform: rotate(-90deg);
+    color: #3F3E44;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.torque2{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: -110px;
+
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase  
+}
+
+.torque3{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: -80px;
+
+    color: white;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.fuel{
+    position: absolute;
+    margin-left: 1393px;
+    margin-top: 100px;
+    transform: rotate(-90deg);
+    color: #3F3E44;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fuel2{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 75px;
+
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase  
+}
+
+.fuel3{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 105px;
+
+    color: white;
+    font-family: Druk Wide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+}
+
